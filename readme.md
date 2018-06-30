@@ -8,10 +8,9 @@
 
 
 3. Prepare sublime text for working with typescript by installing required packages
-..1. press cmd + shift + p to open sublime command palette
-..2. select "Package Control: Install Package", this will show package installer window where you can browse and install packages. If Package control is not installed follow instruction in the link "https://packagecontrol.io/installation" then repeat from steps.
-..3. search and install these packages "Typescript" and "SublimeLinter-tslint".
-
+   - press cmd + shift + p to open sublime command palette
+   - select "Package Control: Install Package", this will show package installer window where you can browse and install packages. If Package control is not installed follow instruction in the link "https://packagecontrol.io/installation" then repeat from steps.
+   - search and install these packages "Typescript" and "SublimeLinter-tslint".
 4. Make sue that you have node installed. If not check this link "https://nodejs.org/en/download/" to install node.
 
 
@@ -23,15 +22,15 @@
 6. Package.json file will be created in the working folder.
 
 7. Install necessary node packages in the project folder
-	a. "typescript" for transpailing typescript to javascript
+   - "typescript" for transpailing typescript to javascript
 		```
 		npm install typescript --save-dev
 		```
-	b. "ts-node" to run typescript files. This is wrapper to node to run .ts files 
+   - "ts-node" to run typescript files. This is wrapper to node to run .ts files 
 		```
 		npm install ts-node --save-dev
 		```
-	c. "@types/node" which is typescript definations of node javascript api so that they can be used in typescript
+    - "@types/node" which is typescript definations of node javascript api so that they can be used in typescript
 		```
 		npm install @types/node --save-dev
 		```
@@ -85,21 +84,21 @@
 	  ```
 
 13. Now run the program
-	a. Open terminal and make sure your current director is root folder of this project
-	b. Run following command to run the program. Remember that we defined the start command in package.json file.
+    - Open terminal and make sure your current director is root folder of this project
+    - Run following command to run the program. Remember that we defined the start command in package.json file.
 		``` command
 		npm run start
 		```
-	c. You should see greeting in the command terminal
+    - You should see greeting in the command terminal
 
 14. Debug the program in chrome developer tools
-	a. Open terminal and cd to project rood directory
-	b. Run following commands, then terminal will wait for debugger to connect
+    - Open terminal and cd to project rood directory
+    - Run following commands, then terminal will wait for debugger to connect
 		```command
 		npm run debug
 		```
-	c. Open chrome browser and enter following url in address bar "chrome://inspect". Then click link with text "Open dedicated DevTools for Node"
-	d. Chrome debugger will open with breakpoint at 1st line of index.ts
+    - Open chrome browser and enter following url in address bar "chrome://inspect". Then click link with text "Open dedicated DevTools for Node"
+    - Chrome debugger will open with breakpoint at 1st line of index.ts
 
 15. Thats all enjoy programming in nodejs with typescript
 
