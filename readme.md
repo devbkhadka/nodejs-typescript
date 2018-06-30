@@ -1,3 +1,12 @@
+# Simple Node Program Using TypeScript
+## Nodejs, TypeScript, Sublime Text, Debuging in Chrome 
+Following are the steps to setup development environment and writing simple node program using typescript. These steps covers
+- Setup Sublime Text IDE for typescript
+- Setup typescript development environment
+- create simple node program using node js
+- running the program in terminal
+- debugging the program using chrome developer tool
+
 1. Let's create a working folder first
 
    ```command
