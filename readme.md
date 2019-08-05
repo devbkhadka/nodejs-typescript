@@ -17,8 +17,8 @@ Following are the steps to setup development environment and writing simple node
 
 
 3. Prepare sublime text for working with typescript by installing required packages
-   - press cmd + shift + p to open sublime command palette
-   - select "Package Control: Install Package", this will show package installer window where you can browse and install packages. If Package control is not installed follow instruction in the link "https://packagecontrol.io/installation" then repeat from steps.
+   - press cmd + shift + p in mac or ctrl+shift+p in windows to open sublime command palette
+   - select "Package Control: Install Package", this will show package installer window where you can browse and install packages. If Package controler is not installed follow instruction in the link "https://packagecontrol.io/installation" then repeat from 1st step.
    - search and install these packages "Typescript" and "SublimeLinter-tslint".
 4. Make sue that you have node installed. If not check this link "https://nodejs.org/en/download/" to install node.
 
@@ -39,7 +39,7 @@ Following are the steps to setup development environment and writing simple node
 		```
 		npm install ts-node --save-dev
 		```
-    - "@types/node" which is typescript definations of node javascript api so that they can be used in typescript
+    - "@types/node" which is types definitions of node javascript api so that they can be used in typescript
 		```
 		npm install @types/node --save-dev
 		```
